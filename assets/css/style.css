@@ -83,6 +83,9 @@ main {
     .slide-btn>button {
         display: none;
     }
+        .slide {
+        height: 180px;
+    }
 }
 
 @media only screen and (max-width:1400px) {
