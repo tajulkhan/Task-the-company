@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    font-family: 'Times New Roman', Times, ;
+    font-size: 17px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(0 0 0 / 38%)
+}
+
+.postionrelative {
+    position: relative;
+}
+
+.brand-img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.section-1 {
+    background-color: rgb(238, 133, 84);
+    height: 400px;
+}
+
+.section-1-text {
+    padding-top: 100px;
+}
+
+.news-bg {
+    background-color: rgb(251, 253, 138);
+}
+
+.slide {
+    height: 200px;
+}
+
+.slides-1-bg {
+    background-color: rgb(251, 253, 138);
+}
+
+.slides-2-bg {
+    background-color: #fff;
+}
+
+.footer-content-bg {
+    background-color: rgb(238, 133, 84);
+    height: 500px;
+}
+
+.mt-footer-content {
+    padding-top: 100px
+}
+
+@media only screen and (max-width:900px) {
+    .brand-img {
+        width: 170px;
+    }
+    .about-video {
+        width: 200px;
+        height: 200px;
+    }
+    .postionrelative {
+        position: relative;
+    }
+    .brand-img {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: -20px;
+    }
+    .slide-btn>button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .about-video {
+        width: 310px;
+        height: 310px;
+    }
+}
