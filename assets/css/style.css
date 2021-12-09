@@ -83,8 +83,14 @@ main {
     .slide-btn>button {
         display: none;
     }
-        .slide {
+    .slide {
         height: 180px;
+    }
+    .about-paragraph-padding {
+        padding: 45px;
+    }
+    .about-padding {
+        padding: 30px;
     }
 }
 
